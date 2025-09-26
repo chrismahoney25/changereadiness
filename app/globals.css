@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  --font-montserrat: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Focus ring */
+.focus-ring {
+  @apply outline-none ring-2 ring-offset-2 ring-primary-500;
+}
+
+@media print {
+  a, button { display: none !important; }
+  .print\:hidden { display: none !important; }
+  .print\:block { display: block !important; }
+  .print\:flex { display: flex !important; }
+  .print-header { position: fixed; top: 0; left: 0; right: 0; padding: 12px 24px; }
+  .print-footer { position: fixed; bottom: 0; left: 0; right: 0; padding: 8px 24px; font-size: 12px; }
+  .print-padding { padding-top: 80px; padding-bottom: 56px; }
+  .print-page-break { page-break-before: always; break-before: page; }
+  .avoid-break { page-break-inside: avoid; break-inside: avoid; }
+  @page { margin: 18mm; }
+  body { color: #000; }
+}
+
+

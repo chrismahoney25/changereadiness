@@ -1,0 +1,64 @@
+{
+  "title": "Change Readiness Assessment",
+  "instructions": "Read each statement and rate your level of agreement on a scale of 1–5 (1 = Strongly Disagree, 5 = Strongly Agree).",
+  "scale": { "min": 1, "max": 5, "labels": ["1","2","3","4","5"] },
+  "sections": [
+    {
+      "id": "mindset",
+      "title": "Mindset and Openness to Change",
+      "questions": [
+        "I believe change is essential for growth and long-term success.",
+        "I view change as an opportunity, not a threat.",
+        "I am comfortable stepping outside of my comfort zone.",
+        "I trust my ability to adapt when circumstances shift.",
+        "I actively seek out new ideas and perspectives to improve my business."
+      ]
+    },
+    {
+      "id": "awareness",
+      "title": "Business Awareness and Clarity",
+      "questions": [
+        "I have a clear understanding of where my business currently stands (strengths, weaknesses, opportunities, threats).",
+        "I regularly review data and feedback to guide my decisions.",
+        "I have clearly defined business goals for the next 12–24 months.",
+        "I understand the resources needed to make significant changes (time, money, people).",
+        "I know which processes or areas of my business need improvement."
+      ]
+    },
+    {
+      "id": "leadership",
+      "title": "Leadership and Decision-Making",
+      "questions": [
+        "I am confident in making difficult decisions when needed.",
+        "I communicate changes clearly and consistently to my team.",
+        "I encourage feedback and collaboration when planning change.",
+        "I hold myself and my team accountable for following through on plans.",
+        "I lead by example when adapting to new systems, strategies, or behaviors."
+      ]
+    },
+    {
+      "id": "resources",
+      "title": "Resources and Support",
+      "questions": [
+        "I have the financial resources to invest in meaningful changes.",
+        "I have access to mentors, coaches, or advisors when I need guidance.",
+        "My team is prepared and capable of handling changes.",
+        "I allocate time each week to work on my business, not just in it.",
+        "I am willing to hire or outsource to fill skill gaps that could block progress."
+      ]
+    },
+    {
+      "id": "resilience",
+      "title": "Resilience and Follow-Through",
+      "questions": [
+        "I remain focused and committed even when challenges arise.",
+        "I am patient with the process of change, knowing results take time.",
+        "I celebrate progress, even when it’s small.",
+        "I review and adjust my plans regularly to stay on track.",
+        "I see change as an ongoing process rather than a one-time event."
+      ]
+    }
+  ]
+}
+
+
