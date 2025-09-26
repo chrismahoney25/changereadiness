@@ -20,7 +20,7 @@ export default function LandingPage() {
             A focused, 5-minute assessment to gauge your readiness to drive meaningful change. Start strong and get clear direction.
           </p>
           <div className="mt-8">
-            <Button size="lg" variant="secondary" onClick={() => router.push('/assessment')}>Start Assessment</Button>
+            <Button size="lg" variant="secondary" onClick={() => { try { localStorage.removeItem('cra:responses'); localStorage.removeItem('cra:score'); } catch {}; router.push('/assessment'); }}>Start Assessment</Button>
           </div>
         </div>
       </div>
